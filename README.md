@@ -25,3 +25,9 @@ The upper-leftmost cell is empty.  The remaining cells across the top are letter
 Now, in the top table, each of the left column cells has a drop-down with 10 color names (red, orange, yellow, green, blue, purple, grey, brown, black, teal).  Order these in an intuitive way for the user.  Initially, a different color is selected in each drop down.  No two drop downs can select the same color at the same time (if this happens, revert the most recently changed drop down to the previous value that was selected.  Inform the user of this in a non-intrusive way (i.e. not an alert() ).
 
 At the bottom of the page, there is a button.  Pressing this button will take the user to a "printable view" of the resulting tables.  This should have all of the same dimensions as selected and should easily print on one page of 8.5" x 11" paper in portrait mode.  It should render in greyscale and include a greyscale logo and company name as a header.  The selected color names will appear in the cells where the drop downs were, but as plain text.  Note that this is a separate page NOT the print menu, you will only receive half points if this opens the print menu instead of rendering a new page.
+
+
+Carson: tables and validation
+Grayson: Homepage
+Zeke: css/colors and about
+Adam: printview button!
