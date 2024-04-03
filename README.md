@@ -28,6 +28,16 @@ At the bottom of the page, there is a button.  Pressing this button will take th
 
 
 Carson: tables and validation
-Grayson: Homepage
+Grayson: Homepage.
 Zeke: css/colors and about
 Adam: printview button!
+
+4/3/24
+All: Bio and ghost drawing
+Grayson: finished!
+Carson: flexible table size. square table 2
+Zeke: CSS
+Adam: printview button!
+
+due saturday
+
