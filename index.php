@@ -43,6 +43,6 @@
     </main>
 
     <footer>
-        <p>&copy; 2021 PHPantoms</p>
+        <p>&copy; 2024 PHPantoms</p>
     </footer>
 </body>
