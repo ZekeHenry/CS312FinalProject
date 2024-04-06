@@ -124,7 +124,7 @@ function updateTableSize() {
 
 
     var table = document.querySelector('.Table2');
-    //table.innerHTML = ''; // Clear existing table content
+    table.innerHTML = ''; // Clear existing table content
 
 
     // Generate the table headers (letters)
