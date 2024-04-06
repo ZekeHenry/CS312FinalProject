@@ -8,17 +8,19 @@
     <meta name="Keywords" content="about, team, bio">
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <img src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phantom with PHP letters on it">
 </head>
 
 <body>
     <header>
+        <img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;">
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
         </nav>
         <h1>About</h1>
+        
     </header>
 
     <main>

@@ -12,13 +12,14 @@
 
 <body>
     <header>
+        <img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;">
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
         </nav>
         <h1>Home</h1>
-        <img src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phantom with PHP letters on it">
     </header>
 
     <main>

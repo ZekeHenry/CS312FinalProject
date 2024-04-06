@@ -6,12 +6,15 @@
 <title>TableColor</title>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <header>
+<img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;">
+        
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
         </nav>
-        <h1>TableColor</h1>
+        <h1>Color Generation</h1>
     </header>
 <style>
     /* Styling for the first table */
