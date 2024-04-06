@@ -1,0 +1,75 @@
+/*
+backgrounds:
+#202A18 - Deep Woods Green
+#3E1C33 - Deep Purple
+
+forgrounds: 
+#F69F3C Pumkin Orange
+#DAA97C Neutral beige
+
+contrast: 
+beige on green:
+https://webaim.org/resources/contrastchecker/?fcolor=DAA97C&bcolor=202A18
+
+beige on purple: 
+https://webaim.org/resources/contrastchecker/?fcolor=DAA97C&bcolor=3E1C33
+
+orange on green:
+https://webaim.org/resources/contrastchecker/?fcolor=F69F3C&bcolor=202A18
+
+orange on purple:
+https://webaim.org/resources/contrastchecker/?fcolor=F69F3C&bcolor=3E1C33
+*/
+body {
+    background-color: #F69F3C;
+    color: #3E1C33;
+}
+nav {
+    min-width: 50%;
+    width: 90%;
+   
+    list-style: none;
+    text-align: left;
+    background-color:#3E1C33;
+   
+    display: block;
+    position:static
+
+}
+nav {
+    float: center;
+    text-align: left;
+    display: block;
+    padding: 30px;
+}
+
+nav  a {
+    font-size:x-large;
+    text-decoration: none;
+    color:#DAA97C;
+    padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+nav  a:hover {
+    color: #3E1C33;
+    padding-block: 30px;
+    background-color: #F69F3C;
+    font-style: italic;
+}
+
+#toAbout{
+    text-decoration: none;
+    color: #202A18
+
+}
+
+#toAbout:hover {
+    font-style: italic;
+}
+
+li .adam {
+    list-style-image: url("local_html/CS312FinalProject-PhPantoms/photos/adamPFP.png");
+}
