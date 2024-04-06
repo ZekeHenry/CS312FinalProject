@@ -8,6 +8,7 @@
     <meta name="Keywords" content="about, team, bio">
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <img src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phantom with PHP letters on it">
 </head>
 
 <body>
