@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Authors" content="Zeke Henry, Carson Calhoun, Adam Ripley, Grayson Morris">
+    <meta name="Authors" content="Zeke Henry, Carson Calhoun, Adam Rippey, Grayson Morris">
     <meta name="Description" content="This is the home page for the website.">
     <meta name="Keywords" content="home, index, page, website">
     <title>Home</title>
