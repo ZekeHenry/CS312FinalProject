@@ -7,7 +7,7 @@
     <meta name="Description" content="This is the home page for the website.">
     <meta name="Keywords" content="home, index, page, website">
     <title>Home</title>
-    <!--- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
@@ -43,6 +43,6 @@
     </main>
 
     <footer>
-        <p>&copy; 2021 PHPantoms</p>
+        <p>&copy; 2024 PHPantoms</p>
     </footer>
 </body>
