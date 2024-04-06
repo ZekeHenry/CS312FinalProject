@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TableColor</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<header>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="colors.php">Color Generation</a>
+        </nav>
+        <h1>TableColor</h1>
+    </header>
 <style>
     /* Styling for the first table */
     .Table1 {

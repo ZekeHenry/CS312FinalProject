@@ -15,7 +15,7 @@
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
-            <a href="color.php">Color Generation</a>
+            <a href="colors.php">Color Generation</a>
         </nav>
         <h1>About</h1>
     </header>
