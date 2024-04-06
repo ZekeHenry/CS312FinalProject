@@ -52,7 +52,7 @@
 </head>
 <body>
 
-
+<div id="print">
 <!-- First Table -->
 <h1>Color Table!</h1>
 <table class="Table1">
@@ -172,7 +172,9 @@ Please select a size for your table:
 <!-- Second Table -->
 <table class="Table2">
 </table>
-
-
+</div>
+<?php
+include 'printButton.html';
+?>
 </body>
 </html>
