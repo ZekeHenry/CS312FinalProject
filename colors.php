@@ -58,10 +58,6 @@
 <table class="Table1">
    
     <?php
-    $preSelectedColors = array("red", "orange", "yellow", "green", "blue"); ?>
-    <?php
-   
-    
     // Function to generate dropdown options
     function generateOptions($selectedColor) {
         $colors = array("red", "orange", "yellow", "green", "blue", "purple", "grey", "brown", "black", "teal");
@@ -79,7 +75,6 @@
 
 
     // Generate rows for each color with dropdown menus
-    
    
     $numColors = count($preSelectedColors);
     for ($i = 0; $i < $numColors; $i++) {
@@ -122,14 +117,13 @@ function updateDropdowns(select) {
 
 
 // Function to update Table2 size
-function updateTable2Size() {
+function updateTableSize() {
     var size = document.getElementById("tableSizeDropdown").value;
     var numSlots = size * size;
     var numRows = numCols = size;
 
 
     var table = document.querySelector('.Table2');
-
     //table.innerHTML = ''; // Clear existing table content
 
 
@@ -153,26 +147,7 @@ function updateTable2Size() {
         table.innerHTML += rowContent;
     }
 }
-function updateTable1Size() {
-    var numColors = document.getElementById("numColorsDropdown").value;
-    var table1 = document.querySelector('.Table1');
-    var colorOptions = <?php echo json_encode($preSelectedColors); ?>;
 
-    table1.innerHTML = ''; // Clear existing table content
-
-    // Generate rows for each color with dropdown menus
-    for (var i = 0; i < numColors; i++) {
-        var color = colorOptions[i] || ''; // If there are fewer pre-selected colors than selected, use an empty string
-        var row = '<tr>';
-        row += '<td><select onchange="updateDropdowns(this)">';
-        row += '<option value=""></option>'; // Empty option
-        row += generateOptions(color);
-        row += '</select></td>';
-        row += '<td id="colorCell' + i + '" style="background-color:' + color + '"></td>'; // Empty content for color column
-        row += '</tr>';
-        table1.innerHTML += row;
-    }
-}
 
 // Function to convert number to letter (1-based index)
 function numberToLetter(number) {
@@ -184,7 +159,7 @@ function numberToLetter(number) {
 
 <!-- Dropdown to select Table2 size -->
 Please select a size for your table:
-<select id="tableSizeDropdown" onchange="updateTable2Size()">
+<select id="tableSizeDropdown" onchange="updateTableSize()">
     <?php
     // Generate options for table size
     for ($i = 1; $i <= 26; $i++) {
