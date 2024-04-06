@@ -25,8 +25,18 @@
         <h2>About the PhPantoms</h2>
         <ol class="aboutList">
             <li class="adam"> Adam Ripley <!--more details here --></li>
-            <li class="Carson"> Carson Carlhoun <!--more details here --></li>
-            <li class="grayson"> Grayson Morris <!--more details here --></li>
+            <li class="Carson"> Carson Carlhoun <p>Hi, My name is Carson Calhoun and I am a sophomore at 
+                Colorado State University. I am studying Computer Science with a concentration in network 
+                security! I currently work as an Undergraduate Teaching Assistant for CS 220. When I'm not 
+                doing computer science you can catch me outside hiking, skiing, biking or really just anything 
+                to get outside</p></li>
+                
+            <li class="Grayson"> Grayson Morris <p>Hi, I'm Grayson Morris, I'm a 4th year Computer Science 
+                student at CSU concentrating in Networks and Security. I currently work for the Lory Student 
+                Center Information Technology team, where I kind of am a jack of all trades, writing shell/SQL 
+                scripts, configuring networks, and setting up systems. When Im not in work or school you can 
+                find me doing anything outdoors from hunting/fishing to hiking 14'ers to snowboarding, ya know 
+                typical Colorado stuff</p></li>
             <li class="zeke"> Zeke Henry <!--more details here --> </li>
         </ol>
         
