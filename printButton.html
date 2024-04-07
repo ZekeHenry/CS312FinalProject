@@ -6,6 +6,7 @@
         </script>
         <script type="text/javascript">
             function takeshot() {
+                window.scrollTo(0, 0);
                 let div =
                     document.getElementById('print');
                 newWin =  window.open("printPage.html");
@@ -15,6 +16,11 @@
                         .getElementById('output')
                         .appendChild(canvas);    
                 })
+                //reload page so user can select different table size
+                setTimeout(function(){
+                    location.reload();
+                            }, 2000);
+
             }
            </script>
            <button onclick="takeshot()">Print</button>

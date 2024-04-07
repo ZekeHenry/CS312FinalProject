@@ -36,8 +36,15 @@ Adam: printview button!
 All: Bio and ghost drawing
 Grayson: finished!
 Carson: flexible table size. square table 2
-Zeke: CSS
-Adam: printview button!
+
+4/6/24: finishing items:
+BIOS - Zeke, Adam
+PFP - Zeke, Carson. Grayson
+
+Zeke: One more color! style text.
+Grayson - logo
+Adam: printview button, no table cut
+carson - square boxes dynamic color size. 
 
 due saturday
 

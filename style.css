@@ -31,16 +31,19 @@ nav {
     list-style: none;
     text-align: left;
     background-color:#3E1C33;
-   
     display: block;
-    position:static
+    position: static;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 27px;
+    padding-bottom: 26px;
 
 }
 nav {
     float: center;
     text-align: left;
     display: block;
-    padding: 30px;
+    /*padding: 30px;*/
 }
 
 nav  a {
@@ -48,9 +51,9 @@ nav  a {
     text-decoration: none;
     color:#DAA97C;
     padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 30px;
-   padding-bottom: 30px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 nav  a:hover {
@@ -68,6 +71,12 @@ nav  a:hover {
 
 #toAbout:hover {
     font-style: italic;
+}
+
+.floatLEft {
+    float: left;
+    display: block;
+    
 }
 
 li .adam {
