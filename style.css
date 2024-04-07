@@ -79,6 +79,6 @@ nav  a:hover {
     
 }
 
-li .adam {
-    list-style-image: url("local_html/CS312FinalProject-PhPantoms/photos/adamPFP.png");
+ul .adam{
+    list-style-image: url('local_html/CS312FinalProject-PhPantoms/photos/ZkePFP.png');
 }
