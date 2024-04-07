@@ -57,19 +57,20 @@ nav  a {
 }
 
 nav  a:hover {
-    color: #3E1C33;
+    color: #202A18;
     padding-block: 30px;
     background-color: #F69F3C;
     font-style: italic;
 }
 
-#toAbout{
+.toAbout{
     text-decoration: none;
-    color: #202A18
+    background-color: #202A18;
+    color: #DAA97C;
 
 }
 
-#toAbout:hover {
+.toAbout:hover {
     font-style: italic;
 }
 

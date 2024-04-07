@@ -32,7 +32,7 @@
             at a time.
         </p>
         <h3> Want to learn more about us?</h3>
-        <p> Visit our <a href="about.php">About</a> page!</p>
+        <p> Visit our <a class="toAbout" href="about.php">About</a> page!</p>
 
         <h2>Misson Statement</h2>
         <p>At PH[P]hantoms, we are dedicated to revolutionizing the digital landscape with our innovative color 
