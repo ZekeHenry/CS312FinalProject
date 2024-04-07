@@ -6,6 +6,7 @@ backgrounds:
 forgrounds: 
 #F69F3C Pumkin Orange
 #DAA97C Neutral beige
+#7A9F7A sickly green
 
 contrast: 
 beige on green:
@@ -23,6 +24,9 @@ https://webaim.org/resources/contrastchecker/?fcolor=F69F3C&bcolor=3E1C33
 body {
     background-color: #F69F3C;
     color: #3E1C33;
+}
+p {
+    color: black
 }
 nav {
     min-width: 50%;
@@ -65,8 +69,8 @@ nav  a:hover {
 
 .toAbout{
     text-decoration: none;
-    background-color: #202A18;
-    color: #DAA97C;
+    background-color: #7A9F7A;
+    color: black;
 
 }
 

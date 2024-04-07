@@ -26,7 +26,7 @@
     <main>
         <h2>About the Ph[P]antoms</h2>
         
-         <img class="floatLEft"src="./photos/adamPFP" alt="Ghost drawing with a slanted mouth" 
+         <img class="floatLEft"src="./photos/adamPFP 2.png" alt="Ghost drawing with a slanted mouth" 
          style="width:90px;height:90px;"> 
             <p>Adam Rippey </p>
                 <p> Originally from North Carolina; served 10 years 
@@ -36,7 +36,7 @@
                 and utilize multiple IT disciplines like software development, database administration, cyber 
                 security, and automation engineering.</p> 
 
-        <img class="floatLEft"src="./photos/graysonPFP.png" alt="" style="width:90px;height:90px;">
+        <img class="floatLEft"src="./photos/carson-phantom.png" alt="" style="width:90px;height:90px;">
             <p> Carson Carlhoun</p>
                 <p>Hi, My name is Carson Calhoun and I am a sophomore at 
                 Colorado State University. I am studying Computer Science with a concentration in network 
@@ -45,7 +45,7 @@
                 to get outside<br><br></p>
                 
 
-        <img class="floatLEft"src="./photos/graysonPFP.png" alt="Ghost drawing with squiggly mouth" 
+        <img class="floatLEft"src="./photos/graysonTransparent.png" alt="Ghost drawing with squiggly mouth" 
         style="width:90px;height:90px;">
             <p> Grayson Morris </p>
             <p>Hi, I'm Grayson Morris, I'm a 4th year Computer Science 
@@ -54,7 +54,7 @@
                 scripts, configuring networks, and setting up systems. When Im not in work or school you can 
                 find me doing anything outdoors from hunting/fishing to hiking 14'ers to snowboarding, ya know 
                 typical Colorado stuff</p></li>
-        <img class="floatLEft"src="./photos/ZkePFP.png" alt="Ghost drawing, whistling with music notes" 
+        <img class="floatLEft"src="./photos/ZkePFP 2.png" alt="Ghost drawing, whistling with music notes" 
         style="width:90px;height:90px;">
             <p> Zeke Henry </>
              <p>Hello! I'm Zeke. I'm a second year Computer Science student at CSU 
