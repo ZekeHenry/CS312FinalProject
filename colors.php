@@ -65,6 +65,7 @@
 
 <!-- First Table -->
 <h1>Color Table!</h1>
+please enter a size for your table:
 <select id="selectNumColors" class="selectNumColors"></select>
 <table class="Table1" id="table1">
 </table>
