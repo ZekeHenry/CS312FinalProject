@@ -84,7 +84,7 @@ please enter a size for your table:
 
   // Function to update the color cell based on dropdown selection
   function updateDropdowns(selectElement) {
-    const colorIndex = selectElement.parentNode.parentNode.rowIndex - 1; // -1 because of header row
+    const colorIndex = selectElement.parentNode.parentNode.rowIndex - 1; 
     const color = selectElement.value;
     const colorCell = document.getElementById(`colorCell${colorIndex}`);
     colorCell.style.backgroundColor = color;
