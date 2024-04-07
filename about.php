@@ -44,7 +44,9 @@
                 scripts, configuring networks, and setting up systems. When Im not in work or school you can 
                 find me doing anything outdoors from hunting/fishing to hiking 14'ers to snowboarding, ya know 
                 typical Colorado stuff</p></li>
-            <li class="zeke"> Zeke Henry <!--more details here --> </li>
+            <li class="zeke"> Zeke Henry <p>Hello! I'm Zeke. I'm a second year Computer Science student at CSU 
+                with a concentration software engineering. When I'm not coding I like to play music, read books,
+                and go rock climbing.   </p> </li>
         </ol>
         
 
