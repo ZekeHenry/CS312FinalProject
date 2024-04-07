@@ -62,7 +62,7 @@
 </style>
 </head>
 <body>
-
+<div id="print">
 <!-- First Table -->
 <h1>Color Table!</h1>
 please enter a size for your table:
@@ -73,7 +73,7 @@ please enter a size for your table:
 <script>
   // Function to generate dropdown options
   function generateOptions(selectedColor) {
-    const colors = ["red", "orange", "yellow", "green", "blue", "Indigo", "Purple", "brown", "black", "white"];
+    const colors = ["red", "orange", "yellow", "green", "blue", "Indigo", "violet", "brown", "black", "white"];
     let options = "";
     colors.forEach(color => {
       const selected = (selectedColor === color) ? "selected" : "";
@@ -206,6 +206,9 @@ Please select a size for your table:
 <!-- Second Table -->
 <table class="Table2">
 </table>
-
+</div>
+<?php
+include 'printButton.html';
+?>
 </body>
 </html>
