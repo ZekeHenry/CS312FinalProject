@@ -73,7 +73,7 @@ please enter a size for your table:
 <script>
   // Function to generate dropdown options
   function generateOptions(selectedColor) {
-    const colors = ["red", "orange", "yellow", "green", "blue", "Indigo", "violet", "brown", "black", "white"];
+    const colors = ["red", "orange", "yellow", "green", "blue", "purple", "grey", "brown", "black", "teal"];
     let options = "";
     colors.forEach(color => {
       const selected = (selectedColor === color) ? "selected" : "";
