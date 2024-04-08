@@ -91,7 +91,7 @@ please enter a size for your table:
   }
 
   // Pre-selected color values
-  const preSelectedColors = ["red", "orange", "yellow", "green", "blue"];
+  const preSelectedColors = ["red", "orange", "yellow", "green", "blue", "purple", "grey", "brown", "black", "teal"];
 
   // Populate selectNumColors dropdown with integers from 1 to the count of pre-selected colors
   function populateNumColorsDropdown() {
