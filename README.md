@@ -69,17 +69,26 @@ Final Polish
 Do a final polishing pass on your site to make sure it always looks its best.  This is subjective.  Do some "hallway usability testing" on your site.  Show it to your parents, aunts, uncles, cousins, children, friends, roommates, grandparents, or whoever else will look at it.  See what they say.  You want this to be a professional looking site.  Also, the print view should almost always print on one page.
 
 Grading
+
 Ability to paint with a chosen color, coordinate appears in table when painted (10 points)
+
 Cells change colors when drop down changed (10 points)
+
 Print view shows coordinates, no colored-in cells (10 points)
+
 DB Access Page (10 Points)
+
 DB table added to store colors, application pulls from table to populate drop downs (10 points)
+
 User interface to add/delete colors (10 points)
+
 User Interface to edit colors (10 points)
+
 Final Polish, app is a well-polished, good looking, application without errors (30 points)
 This is a large category and basically will be an overall impression of your site.  
 Most of the submissions to Milestone 1 would have received 15-20 points on this (so don't stress too much!).
 Features that aren't implemented won't count against, but if something is implemented, it should work nicely.
+
 Milestone 2 Team Report (+10 EC)
 
 
