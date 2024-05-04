@@ -6,11 +6,10 @@
 <title>TableColor</title>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <header>
-<img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
-            om with PHP letters on it" style="width:80px;height:80px;">
+<a href="index.php"><img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;"></a>
         
         <nav>
-            <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
             <a href="color_selection.php">Color Selection</a>
@@ -21,7 +20,7 @@
     /* Styling for the first table */
     .Table1 {
         width: 90%; /* Adjust width as needed */
-        margin: 20px auto; /* Center the table */
+        margin: 20px ; /* Center the table */
     }
 
     .Table1 th, .Table1 td {
@@ -66,8 +65,9 @@
 <div id="print">
 <!-- First Table -->
 <h1>Color Table!</h1>
-please enter a size for your table:
-<select id="selectNumColors" class="selectNumColors"></select>
+<p>please enter a size for your table:
+<select id="selectNumColors" class="selectNumColors dropdown",></select>
+</p>
 <table class="Table1" id="table1">
 </table>
 
@@ -116,7 +116,7 @@ please enter a size for your table:
       const row = table.insertRow();
       const cell1 = row.insertCell(0);
       const cell2 = row.insertCell(1);
-      cell1.innerHTML = `<select onchange='updateDropdowns(this)'>${generateOptions(color)}</select>`;
+      cell1.innerHTML = `<select onchange='updateDropdowns(this)' class="dropdown">${generateOptions(color)}</select>`;
       cell2.id = `colorCell${index}`;
       cell2.style.backgroundColor = color;
     });
@@ -194,14 +194,15 @@ function numberToLetter(number) {
 <h1>Letters and Numbers Table!</h1>
 
 <!-- Dropdown to select Table2 size -->
-Please select a size for your table:
-<select id="tableSizeDropdown" onchange="updateTableSize()">
+<p>Please select a size for your table:
+<select id="tableSizeDropdown" class="dropdown"  onchange="updateTableSize()">
     <?php
     // Generate options for table size
     for ($i = 1; $i <= 26; $i++) {
         echo "<option value='$i'>$i</option>";
     }
     ?>
+    </p>
 </select>
 
 <!-- Second Table -->
@@ -211,5 +212,9 @@ Please select a size for your table:
 <?php
 include 'printButton.html';
 ?>
+
+<footer>
+        <p>&copy; 2024 PHPantoms</p>
+    </footer>
 </body>
 </html>

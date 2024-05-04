@@ -72,13 +72,25 @@
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
 
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .column {
+                width: 50%;
+                flex: 50%;
+                padding: 10px;
+            }
+    </style>
+
+
     <body>
         <header>
-            <img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
-            om with PHP letters on it" style="width:80px;height:80px;">
+        <a href="index.php"><img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;"></a>
         
             <nav>
-                <a href="index.php">Home</a>
                 <a href="about.php">About</a>
                 <a href="colors.php">Color Generation</a>
                 <a href="color_selection.php">Color Selection</a>
@@ -87,11 +99,13 @@
         </header>
 
         <main>
-            <!-- Show Colors Button -->
+        <div class="row">
+            <div class="column" >
+                <!-- Show Colors Button -->
             <form method="POST" action="color_selection.php">
             <h2>Show Colors in Database</h2>
                 <input type="hidden" name="action" value="show">
-                <input type="submit" value="Show Colors">
+                <input type="submit" class="button" value="Show Colors">
                 <?php echo $colorList; ?>
             </form>
 
@@ -103,9 +117,12 @@
                 <label for="addHex">Hex Value:</label>
                 <input type="text" id="addHex" name="hex" placeholder="#FFFFFF" required>
                 <input type="hidden" name="action" value="add">
-                <input type="submit" value="Add Color">
+                <br><br>
+                <input type="submit" class="button" value="Add Color">
             </form>
-
+            </div>
+            <div class="column" >
+                
             <!-- Edit Color Form -->
             <form method="POST" action="color_selection.php">
                 <h2>Edit Color</h2>
@@ -118,7 +135,8 @@
                 <label for="newHex">New Hex Value:</label>
                 <input type="text" id="newHex" name="newHex" placeholder="#FFFFFF" required>
                 <input type="hidden" name="action" value="update">
-                <input type="submit" value="Edit Color">
+                <br><br>
+                <input type="submit" class="button" value="Edit Color">
             </form>
 
             <!-- Delete Color Form -->
@@ -129,15 +147,23 @@
                 <label for="deleteHex">Hex Value:</label>
                 <input type="text" id="deleteHex" name="hex" placeholder="#FFFFFF" required>
                 <input type="hidden" name="action" value="delete">
-                <input type="submit" value="Delete Color">
+                <br><br>
+
+                <input type="submit" class="button" value="Delete Color">
             </form>
+            </div>
+            </div>
+            
+
         </main>
         <style>
             /* Styling for the form */
+
+            
             form {
-                width: 50%;
-                margin: 20px auto;
-                padding: 20px;
+                width: 100%;
+                margin: 5px ;
+                padding: 5px;
                 border: 1px solid #dddddd;
             }
 
@@ -150,22 +176,23 @@
                 margin-bottom: 5px;
             }
 
-            form input[type="submit"] {
-                background-color: #4CAF50;
-                color: white;
-                cursor: pointer;
-            }
-
+            
             form input[type="submit"]:hover {
-                background-color: #45a049;
+                background-color: white;
+                color: black;
             }
 
-            h1 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+            form input[type="text"] {
+                border: none;
+                border-radius: 3px;
             }
+
+            
         </style>
+
+<footer>
+        <p>&copy; 2024 PHPantoms</p>
+    </footer>
     </body>
 </html>
 

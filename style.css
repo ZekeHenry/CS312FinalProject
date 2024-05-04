@@ -10,6 +10,22 @@ dark green - 2A361F
 contrast: 
 
 */
+.aboutDescription {
+    margin-left: 12%;
+}
+
+.dropdown {
+    border: none;
+    background-color: #3D2C44;
+    color:#F8B263;
+}
+
+.button {
+    border:none;
+    background-color: #3D2C44;
+    color: #F8B263;
+    border-radius: 5px;
+}
 
 .space {
     width: 80%;
@@ -65,8 +81,7 @@ nav  a:hover {
 
 .toAbout{
     text-decoration: none;
-    background-color: #53665C;
-    color: #F69F3C;
+   color:#3D2C44;
 
 }
 
