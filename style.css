@@ -1,29 +1,25 @@
 /*
-backgrounds:
-#202A18 - Deep Woods Green
-#3E1C33 - Deep Purple
+color codes:
+light - 
+sage green - #B3C6BC
+pumpkin - #F8B263
 
-forgrounds: 
-#F69F3C Pumkin Orange
-#DAA97C Neutral beige
-#7A9F7A sickly green
-
+dark - 
+spooky lavender - 3D2C44
+dark green - 2A361F
 contrast: 
-beige on green:
-https://webaim.org/resources/contrastchecker/?fcolor=DAA97C&bcolor=202A18
 
-beige on purple: 
-https://webaim.org/resources/contrastchecker/?fcolor=DAA97C&bcolor=3E1C33
-
-orange on green:
-https://webaim.org/resources/contrastchecker/?fcolor=F69F3C&bcolor=202A18
-
-orange on purple:
-https://webaim.org/resources/contrastchecker/?fcolor=F69F3C&bcolor=3E1C33
 */
+
+.space {
+    width: 80%;
+    margin-left: 5%;
+}
 body {
-    background-color: #F69F3C;
-    color: #3E1C33;
+    background-color:#B3C6BC;
+    color: #3D2C44;
+    width: 80%;
+    margin-left: 10%;
 }
 p {
     color: black
@@ -34,7 +30,7 @@ nav {
    
     list-style: none;
     text-align: left;
-    background-color:#3E1C33;
+    background-color:#B3C6BC;
     display: block;
     position: static;
     padding-left: 40px;
@@ -47,13 +43,14 @@ nav {
     float: center;
     text-align: left;
     display: block;
+    background-color: #3D2C44;
     /*padding: 30px;*/
 }
 
 nav  a {
     font-size:x-large;
     text-decoration: none;
-    color:#DAA97C;
+    color:#B3C6BC;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 30px;
@@ -61,16 +58,15 @@ nav  a {
 }
 
 nav  a:hover {
-    color: #202A18;
     padding-block: 30px;
-    background-color: #F69F3C;
+
     font-style: italic;
 }
 
 .toAbout{
     text-decoration: none;
-    background-color: #7A9F7A;
-    color: black;
+    background-color: #53665C;
+    color: #F69F3C;
 
 }
 

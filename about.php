@@ -18,12 +18,14 @@
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
+            <a href="color_selection.php">Color Selection</a>
         </nav>
         <h1>About</h1>
         
     </header>
 
     <main>
+        <div class="space">
         <h2>About the Ph[P]antoms</h2>
         
          <img class="floatLEft"src="./photos/adamPFP 2.png" alt="Ghost drawing with a slanted mouth" 
@@ -62,7 +64,7 @@
                 and go rock climbing. <br><br><br>  </p>
         
         
-
+</div>
 
         
     <footer>

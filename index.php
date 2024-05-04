@@ -18,11 +18,14 @@
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
+            <a href="color_selection.php">Color Selection</a>
+
         </nav>
         <h1>Home</h1>
     </header>
 
     <main>
+        <div class="space">
         <h2>Welcome to PH[P]antoms!</h2>
         <p>We are a dynamic team of four individuals passionate about transforming digital experiences through our 
             innovative color generation service. At PHPhantoms, we specialize in empowering our users with vibrant 
@@ -42,6 +45,7 @@
             passion, expertise, and cutting-edge technology, we endeavor to make the world a more colorful and 
             visually captivating place, one palette at a time.
         </p>
+</div>
     </main>
 
     <footer>

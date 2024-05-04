@@ -13,6 +13,7 @@
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="colors.php">Color Generation</a>
+            <a href="color_selection.php">Color Selection</a>
         </nav>
         <h1>Color Generation</h1>
     </header>
