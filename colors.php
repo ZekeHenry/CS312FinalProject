@@ -92,15 +92,29 @@ function generateOptions(selectedColor) {
 
 function populateNumColorsDropdown() {
     const selectNumColors = document.getElementById('selectNumColors');
-    for (let i = 1; i <= preSelectedColors.length; i++) {
+    const maxOptions = 10;  // Set the maximum number of options to 10
+    for (let i = 1; i <= maxOptions; i++) {
         selectNumColors.appendChild(new Option(i, i));
     }
 }
 function updateDropdownAndRadio(selectElement, event) {
     const radioElement = selectElement.parentNode.querySelector('input[type="radio"]');
-    if (radioElement) {
-        radioElement.value = selectElement.value;  // Sync radio button's value with dropdown
-        handleColorSelection(radioElement);
+    const selects = document.querySelectorAll('#table1 select');
+    const selectedValues = Array.from(selects).map(sel => sel.value);
+    const previousValue = selectElement.dataset.previousValue || '';
+
+    // Check if the current selection is a duplicate
+    if (selectedValues.filter(val => val === selectElement.value).length > 1) {
+        selectElement.value = previousValue;  // Revert to previous value if duplicate
+        document.getElementById('message').textContent = "Duplicate color selected. Reverted to previous value.";
+    } else {
+        // Update the dataset with the new value
+        selectElement.dataset.previousValue = selectElement.value;
+        if (radioElement) {
+            radioElement.value = selectElement.value;  // Sync radio button's value with dropdown
+            handleColorSelection(radioElement);
+        }
+        document.getElementById('message').textContent = "";  // Clear error message
     }
     event.stopPropagation();  // Prevent triggering the table's click event
 }
@@ -147,7 +161,7 @@ function generateColorTable() {
         const cell1 = row.insertCell(0);
         const cell2 = row.insertCell(1);
         const isChecked = color === 'red' ? 'checked' : '';  // Ensure red is checked by default
-        cell1.innerHTML = `<input type='radio' name='colorSelector' value='${color}' ${isChecked} onchange='handleColorSelection(this)' />`;
+        cell1.innerHTML = `<input type='radio' name='colorSelector' value='${color}' ${isChecked} onchange='handleColorSelection(this)' data-html2canvas-ignore='true' />`;
         cell1.innerHTML += `<select onchange='updateDropdownAndRadio(this, event)'>${generateOptions(color)}</select>`;
         cell2.id = `colorCell${index}`;
         cell2.style.backgroundColor = color;
@@ -171,7 +185,7 @@ document.addEventListener('click', function(event) {
         event.target.style.backgroundColor = event.target.style.backgroundColor === currentColor ? '' : currentColor;
     }
 });
-populateNumColorsDropdown();
+//populateNumColorsDropdown();
 generateColorTable();
 document.getElementById('selectNumColors').addEventListener('change', generateColorTable);
 </script>
