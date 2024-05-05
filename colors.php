@@ -147,7 +147,7 @@ function generateColorTable() {
         const cell1 = row.insertCell(0);
         const cell2 = row.insertCell(1);
         const isChecked = color === 'red' ? 'checked' : '';  // Ensure red is checked by default
-        cell1.innerHTML = `<input type='radio' name='colorSelector' value='${color}' ${isChecked} onchange='handleColorSelection(this)' />`;
+        cell1.innerHTML = `<input type='radio' name='colorSelector' value='${color}' ${isChecked} onchange='handleColorSelection(this)' data-html2canvas-ignore='true' />`;
         cell1.innerHTML += `<select onchange='updateDropdownAndRadio(this, event)'>${generateOptions(color)}</select>`;
         cell2.id = `colorCell${index}`;
         cell2.style.backgroundColor = color;

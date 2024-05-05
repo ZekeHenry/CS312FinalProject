@@ -6,6 +6,15 @@
         </script>
         <script type="text/javascript">
             function takeshot() {
+                var table = document.getElementById('table1');
+                var firstChilds = table.querySelectorAll("td:first-child");
+               var text = document.getElementById("selectNumColors").currentColor;
+                    for (var i = 0; i<firstChilds.length;i++){
+                        firstChilds[i].insertAdjacentText("beforeend"," "+colorNametoHex(document.getElementsByName("colorSelector")[i].value));
+                    }
+              
+                currentColor = null;
+                updateColoredCellsInTable2();
                 window.scrollTo(0, 0);
                 let div =
                     document.getElementById('print');
@@ -21,6 +30,42 @@
                     location.reload();
                             }, 2000);
 
+            }
+            function colorNametoHex(color){
+                switch(color){
+                    case "red":
+                    return "#FF0000"
+                    break;
+                    case "orange":
+                    return "#FFA500"
+                    break;
+                    case "yellow":
+                    return "#FFFF00"
+                    break;
+                    case "green":
+                    return "#008000"
+                    break;
+                    case "blue":
+                    return "#0000FF"
+                    break;
+                    case "purple":
+                    return "#800080"
+                    break;
+                    case "grey":
+                    return "#808080"
+                    break;
+                    case "brown":
+                    return "#A52A2A"
+                    break;
+                    case "black":
+                    return "#000000"
+                    break;
+                    case "teal":
+                    return "#008080"
+                    break;
+                    default:
+                        return "Error";
+                }
             }
            </script>
            <button class="button" onclick="takeshot()">Print</button>
