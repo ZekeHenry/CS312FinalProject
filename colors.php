@@ -226,12 +226,17 @@ function updateDropdowns(select) {
             }
         }
 // Function to update Table2 size
+// Function to update Table2 size and clear the list of colored cells
 function updateTableSize() {
     var size = document.getElementById("tableSizeDropdown").value;
     var numSlots = size * size;
     var numRows = numCols = size;
     var table = document.querySelector('.Table2');
     table.innerHTML = ''; // Clear existing table content
+
+    // Reset the list of colored cells
+    listDisplay.textContent = 'Colored Cells: ';
+
     // Generate the table headers (letters)
     var headerRow = "<tr><th></th>";
     for (var col = 1; col <= numCols; col++) {
@@ -239,18 +244,25 @@ function updateTableSize() {
     }
     headerRow += "</tr>";
     table.innerHTML += headerRow;
+
     // Generate the table rows (numbers)
     for (var row = 1; row <= numRows; row++) {
         var rowContent = "<tr>";
         rowContent += "<th>" + row + "</th>"; // Numbered cell for the leftmost column
         for (var col = 1; col <= numCols; col++) {
-            var cellId = numberToLetter(col)  + row; // Unique id for each cell
+            var cellId = numberToLetter(col) + row; // Unique id for each cell
             rowContent += "<td id='" + cellId + "'></td>"; // Empty cell with id
         }
         rowContent += "</tr>";
         table.innerHTML += rowContent;
     }
 }
+
+// Helper function to convert number to letter for column headers
+function numberToLetter(number) {
+    return String.fromCharCode(number + 64); 
+}
+
 
 function numberToLetter(number) {
     return String.fromCharCode(number + 64); 
