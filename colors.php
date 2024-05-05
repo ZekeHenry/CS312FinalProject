@@ -251,6 +251,7 @@ document.addEventListener('click', function(event) {
 
 function manageColoredCellsList(cellId) {
     var coloredCells = listDisplay.textContent.replace('Colored Cells: ', '').split(', ').filter(Boolean);
+    coloredCells.sort();
 
     // Toggle the cell ID in the list
     if (!coloredCells.includes(cellId)) {
@@ -258,7 +259,6 @@ function manageColoredCellsList(cellId) {
     } else {
         coloredCells = coloredCells.filter(id => id !== cellId);
     }
-    coloredCells.sort();
 
     // Update the list display text
     if (coloredCells.length > 0) {
