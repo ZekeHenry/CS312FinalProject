@@ -7,14 +7,14 @@
 <title>TableColor</title>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <header>
-<img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
-            om with PHP letters on it" style="width:80px;height:80px;">
-       
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="about.php">About</a>
-            <a href="colors.php">Color Generation</a>
-        </nav>
+<a href="index.php"><img class="floatLEft"src="./photos/PhPantomsLogo.png" alt="Company Logo of Purple Phant
+            om with PHP letters on it" style="width:80px;height:80px;"></a>
+        
+            <nav>
+                <a href="about.php">About</a>
+                <a href="colors.php">Color Generation</a>
+                <a href="color_selection.php">Color Selection</a>
+            </nav>
         <h1>Color Generation</h1>
     </header>
 <style>

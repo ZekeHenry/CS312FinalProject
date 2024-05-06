@@ -98,3 +98,7 @@ nav  a:hover {
 ul .adam{
     list-style-image: url('local_html/CS312FinalProject-PhPantoms/photos/ZkePFP.png');
 }
+
+li {
+      color: black;
+}
